@@ -1,10 +1,5 @@
 <ul>
-	<li><a href="#">First level entry</a></li>
-	<li>
-		<a href="#">First level container</a>
-		<ul>
-			<li><a href="#">Second level entry</a></li>
-			<li><a href="#">Second level entry</a></li>
-		</ul>
-	</li>
+	<li><a href="#">CSS</a></li>
+	<li><a href="#">HTML</a></li>
+	<li><a href="#">JAVASCRIPT</a></li>
 </ul>

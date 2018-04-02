@@ -1,5 +1,6 @@
 <?php
 script('editortexto', 'script');
+
 style('editortexto', 'style');
 ?>
 
@@ -15,4 +16,3 @@ style('editortexto', 'style');
 		</div>
 	</div>
 </div>
-

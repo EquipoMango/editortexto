@@ -1,5 +1,5 @@
 <?php
-script('editortexto', 'script');
+script('editortexto', array('script','jquery-3.3.1','editor'));
 style('editortexto', 'style');
 ?>
 
@@ -11,7 +11,9 @@ style('editortexto', 'style');
 
 	<div id="app-content">
 		<div id="app-content-wrapper">
-			<?php print_unescaped($this->inc('content/indice')); ?>
+			<?php print_unescaped($this->inc('content/top'));?>
+			<?php print_unescaped($this->inc('content/bottom'));?>
+
 		</div>
 	</div>
 </div>

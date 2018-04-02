@@ -38,7 +38,8 @@ class PageController extends Controller {
 	 * @NoCSRFRequired
 	 */
 	 //alanmarth@gmail.com
-	public function indice() {
-		return new TemplateResponse('editortexto', 'indice');  // templates/index.php
+	public function editor() {
+		return new TemplateResponse('editortexto', 'editor');  // templates/index.php
 	}
+
 }

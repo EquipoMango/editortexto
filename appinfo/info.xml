@@ -17,7 +17,7 @@
     <navigations>
         <navigation>
             <name>Editor Texto</name>
-            <route>editortexto.page.indice</route>
+            <route>editortexto.page.editor</route>
         </navigation>
     </navigations>
 </info>
