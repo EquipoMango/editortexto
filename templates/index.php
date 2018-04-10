@@ -3,7 +3,6 @@ script('editortexto', 'script');
 
 style('editortexto', 'style');
 ?>
-
 <div id="app">
 	<div id="app-navigation">
 		<?php print_unescaped($this->inc('navigation/index')); ?>

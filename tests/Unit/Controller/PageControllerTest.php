@@ -33,4 +33,3 @@ class PageControllerTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals('indice', $result->getTemplateName());
 		$this->assertTrue($result instanceof TemplateResponse);
 	}
-}

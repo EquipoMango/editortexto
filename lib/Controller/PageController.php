@@ -28,7 +28,8 @@ class PageController extends Controller {
 	 * @NoCSRFRequired
 	 */
 	public function editor() {
-		return new TemplateResponse('editortexto', 'editor');  
+		return new TemplateResponse('editortexto', 'editor'); 
+
 	}
 
 }
