@@ -5,19 +5,19 @@
     <name>Editor Texto</name>
     <summary>Editor de texto para crear paginas html y ver los resultador en vivo.</summary>
     <description><![CDATA[Editor de texto para crear paginas html y ver los resultador en vivo. Con React.]]></description>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <licence>agpl</licence>
     <author mail="estebancureno@hotmail.com" >Esteban Cureno y Jonathan Martinez</author>
     <namespace>EditorTexto</namespace>
     <category>tools</category>
     <bugs>http://errores.html</bugs>
     <dependencies>
-        <nextcloud min-version="12" max-version="12"/>
+        <nextcloud min-version="12" max-version="13"/>
     </dependencies>
     <navigations>
         <navigation>
             <name>Editor Texto</name>
-            <route>editortexto.page.index</route>
+            <route>editortexto.page.editor</route>
         </navigation>
     </navigations>
 </info>
